@@ -14,7 +14,10 @@ public class PropertyLoder {
     public String getName(){
     return value;
     }
-
+  @GetMapping("/getValue")
+    public String getvalue(){
+    return value;
+    }
 
 
 
