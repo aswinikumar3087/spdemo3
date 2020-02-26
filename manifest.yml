@@ -1,0 +1,7 @@
+
+applications:
+  - name: cf-demo-app
+    memory: 800M
+    instances: 1
+    random-route: true
+    path: target/SpringbootDemo3-0.0.1-SNAPSHOT.jar
